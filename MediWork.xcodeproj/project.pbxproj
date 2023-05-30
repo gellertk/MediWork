@@ -9,21 +9,53 @@
 /* Begin PBXBuildFile section */
 		892F200E2A237D950086B4D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892F200D2A237D950086B4D6 /* AppDelegate.swift */; };
 		892F20102A237D950086B4D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892F200F2A237D950086B4D6 /* SceneDelegate.swift */; };
-		892F20122A237D950086B4D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892F20112A237D950086B4D6 /* ViewController.swift */; };
-		892F20152A237D950086B4D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892F20132A237D950086B4D6 /* Main.storyboard */; };
+		892F20122A237D950086B4D6 /* PatientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892F20112A237D950086B4D6 /* PatientsViewController.swift */; };
 		892F20172A237D960086B4D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 892F20162A237D960086B4D6 /* Assets.xcassets */; };
 		892F201A2A237D960086B4D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892F20182A237D960086B4D6 /* LaunchScreen.storyboard */; };
+		892F20222A2384540086B4D6 /* APIPatient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892F20212A2384540086B4D6 /* APIPatient.swift */; };
+		892F20242A2385DC0086B4D6 /* APIFullStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892F20232A2385DC0086B4D6 /* APIFullStatus.swift */; };
+		892F20262A2386270086B4D6 /* APIClientOrganisation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892F20252A2386270086B4D6 /* APIClientOrganisation.swift */; };
+		892F202C2A2387AB0086B4D6 /* PatientsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892F202B2A2387AB0086B4D6 /* PatientsViewModel.swift */; };
+		892F202E2A23887B0086B4D6 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892F202D2A23887B0086B4D6 /* NetworkService.swift */; };
+		892F20302A2389680086B4D6 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892F202F2A2389680086B4D6 /* APIClient.swift */; };
+		892F20322A238A640086B4D6 /* MockPatients.json in Resources */ = {isa = PBXBuildFile; fileRef = 892F20312A238A640086B4D6 /* MockPatients.json */; };
+		892F20342A238B8B0086B4D6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892F20332A238B8B0086B4D6 /* Constants.swift */; };
+		892F20362A238DD60086B4D6 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892F20352A238DD60086B4D6 /* Factory.swift */; };
+		892F20382A2392AA0086B4D6 /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892F20372A2392AA0086B4D6 /* StateView.swift */; };
+		892F203A2A239B4C0086B4D6 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892F20392A239B4C0086B4D6 /* Patient.swift */; };
+		892F203C2A239CBD0086B4D6 /* PatientStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892F203B2A239CBD0086B4D6 /* PatientStatus.swift */; };
+		8939B6542A25677300A1B140 /* SortingPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8939B6532A25677300A1B140 /* SortingPickerView.swift */; };
+		8939B6562A256CA300A1B140 /* RowProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8939B6552A256CA300A1B140 /* RowProperty.swift */; };
+		8939B6582A256CFF00A1B140 /* PatientProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8939B6572A256CFF00A1B140 /* PatientProperty.swift */; };
+		8939B65A2A25820400A1B140 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8939B6592A25820400A1B140 /* Array+Extension.swift */; };
+		8939B6612A25877A00A1B140 /* ViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8939B6602A25877A00A1B140 /* ViewState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		892F200A2A237D950086B4D6 /* MediWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		892F200D2A237D950086B4D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		892F200F2A237D950086B4D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		892F20112A237D950086B4D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		892F20142A237D950086B4D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		892F20112A237D950086B4D6 /* PatientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientsViewController.swift; sourceTree = "<group>"; };
 		892F20162A237D960086B4D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		892F20192A237D960086B4D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		892F201B2A237D960086B4D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		892F20212A2384540086B4D6 /* APIPatient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIPatient.swift; sourceTree = "<group>"; };
+		892F20232A2385DC0086B4D6 /* APIFullStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIFullStatus.swift; sourceTree = "<group>"; };
+		892F20252A2386270086B4D6 /* APIClientOrganisation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientOrganisation.swift; sourceTree = "<group>"; };
+		892F202B2A2387AB0086B4D6 /* PatientsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientsViewModel.swift; sourceTree = "<group>"; };
+		892F202D2A23887B0086B4D6 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		892F202F2A2389680086B4D6 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		892F20312A238A640086B4D6 /* MockPatients.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MockPatients.json; sourceTree = "<group>"; };
+		892F20332A238B8B0086B4D6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		892F20352A238DD60086B4D6 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		892F20372A2392AA0086B4D6 /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
+		892F20392A239B4C0086B4D6 /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		892F203B2A239CBD0086B4D6 /* PatientStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientStatus.swift; sourceTree = "<group>"; };
+		8939B6532A25677300A1B140 /* SortingPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingPickerView.swift; sourceTree = "<group>"; };
+		8939B6552A256CA300A1B140 /* RowProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowProperty.swift; sourceTree = "<group>"; };
+		8939B6572A256CFF00A1B140 /* PatientProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientProperty.swift; sourceTree = "<group>"; };
+		8939B6592A25820400A1B140 /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		8939B6602A25877A00A1B140 /* ViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +88,95 @@
 		892F200C2A237D950086B4D6 /* MediWork */ = {
 			isa = PBXGroup;
 			children = (
-				892F200D2A237D950086B4D6 /* AppDelegate.swift */,
-				892F200F2A237D950086B4D6 /* SceneDelegate.swift */,
-				892F20112A237D950086B4D6 /* ViewController.swift */,
-				892F20132A237D950086B4D6 /* Main.storyboard */,
+				892F20292A2387630086B4D6 /* SupportingFiles */,
+				892F202A2A23876E0086B4D6 /* PatientsScene */,
 				892F20162A237D960086B4D6 /* Assets.xcassets */,
 				892F20182A237D960086B4D6 /* LaunchScreen.storyboard */,
 				892F201B2A237D960086B4D6 /* Info.plist */,
 			);
 			path = MediWork;
+			sourceTree = "<group>";
+		};
+		892F20272A2386320086B4D6 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				892F20282A23863B0086B4D6 /* API */,
+				892F20392A239B4C0086B4D6 /* Patient.swift */,
+				892F203B2A239CBD0086B4D6 /* PatientStatus.swift */,
+				8939B6602A25877A00A1B140 /* ViewState.swift */,
+				8939B6552A256CA300A1B140 /* RowProperty.swift */,
+				8939B6572A256CFF00A1B140 /* PatientProperty.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		892F20282A23863B0086B4D6 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				892F20212A2384540086B4D6 /* APIPatient.swift */,
+				892F20232A2385DC0086B4D6 /* APIFullStatus.swift */,
+				892F20252A2386270086B4D6 /* APIClientOrganisation.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		892F20292A2387630086B4D6 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				892F200D2A237D950086B4D6 /* AppDelegate.swift */,
+				892F200F2A237D950086B4D6 /* SceneDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		892F202A2A23876E0086B4D6 /* PatientsScene */ = {
+			isa = PBXGroup;
+			children = (
+				892F20112A237D950086B4D6 /* PatientsViewController.swift */,
+				892F202B2A2387AB0086B4D6 /* PatientsViewModel.swift */,
+				892F20272A2386320086B4D6 /* Entity */,
+				8939B65C2A2586E800A1B140 /* Subviews */,
+				8939B65E2A2586FD00A1B140 /* Helpers */,
+				8939B65D2A2586EF00A1B140 /* Extensions */,
+				8939B65B2A2586DC00A1B140 /* Network */,
+			);
+			path = PatientsScene;
+			sourceTree = "<group>";
+		};
+		8939B65B2A2586DC00A1B140 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				892F202D2A23887B0086B4D6 /* NetworkService.swift */,
+				892F202F2A2389680086B4D6 /* APIClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		8939B65C2A2586E800A1B140 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				892F20372A2392AA0086B4D6 /* StateView.swift */,
+				8939B6532A25677300A1B140 /* SortingPickerView.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		8939B65D2A2586EF00A1B140 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8939B6592A25820400A1B140 /* Array+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8939B65E2A2586FD00A1B140 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				892F20352A238DD60086B4D6 /* Factory.swift */,
+				892F20332A238B8B0086B4D6 /* Constants.swift */,
+				892F20312A238A640086B4D6 /* MockPatients.json */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +237,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				892F20322A238A640086B4D6 /* MockPatients.json in Resources */,
 				892F201A2A237D960086B4D6 /* LaunchScreen.storyboard in Resources */,
 				892F20172A237D960086B4D6 /* Assets.xcassets in Resources */,
-				892F20152A237D950086B4D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +250,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				892F20122A237D950086B4D6 /* ViewController.swift in Sources */,
+				892F20122A237D950086B4D6 /* PatientsViewController.swift in Sources */,
+				8939B6542A25677300A1B140 /* SortingPickerView.swift in Sources */,
+				892F203C2A239CBD0086B4D6 /* PatientStatus.swift in Sources */,
+				8939B65A2A25820400A1B140 /* Array+Extension.swift in Sources */,
+				892F20222A2384540086B4D6 /* APIPatient.swift in Sources */,
+				892F20362A238DD60086B4D6 /* Factory.swift in Sources */,
+				892F203A2A239B4C0086B4D6 /* Patient.swift in Sources */,
+				892F202E2A23887B0086B4D6 /* NetworkService.swift in Sources */,
+				8939B6612A25877A00A1B140 /* ViewState.swift in Sources */,
 				892F200E2A237D950086B4D6 /* AppDelegate.swift in Sources */,
 				892F20102A237D950086B4D6 /* SceneDelegate.swift in Sources */,
+				8939B6562A256CA300A1B140 /* RowProperty.swift in Sources */,
+				892F20382A2392AA0086B4D6 /* StateView.swift in Sources */,
+				8939B6582A256CFF00A1B140 /* PatientProperty.swift in Sources */,
+				892F20342A238B8B0086B4D6 /* Constants.swift in Sources */,
+				892F20242A2385DC0086B4D6 /* APIFullStatus.swift in Sources */,
+				892F202C2A2387AB0086B4D6 /* PatientsViewModel.swift in Sources */,
+				892F20262A2386270086B4D6 /* APIClientOrganisation.swift in Sources */,
+				892F20302A2389680086B4D6 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		892F20132A237D950086B4D6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				892F20142A237D950086B4D6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		892F20182A237D960086B4D6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +412,6 @@
 				INFOPLIST_FILE = MediWork/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +439,6 @@
 				INFOPLIST_FILE = MediWork/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
